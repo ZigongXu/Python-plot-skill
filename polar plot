@@ -1,0 +1,5 @@
+# Example:
+
+Parker solar spiral and the position of Earth and STA and STB
+
+subplot(projection='polar')
