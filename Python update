@@ -69,3 +69,13 @@ step 2:
 pip3 -r requirements.txt
 To update and set up the package you need for python 3.7. If problem encounter, delete the relative item and continue. Then install those package later
 In new version: should use : python3.7 -m pip -r requrements.txt
+
+
+step 3:
+problem might meet:
+Unable to open the terminal in linux:
+cd /usr/lib/python3/dist-packages
+sudo ln -s apt_pkg.cpython-{36m,37m}-x86_64-linux-gnu.so
+sudo ln -s /usr/lib/python3/dist-packages/gi/_gi.cpython-{36m,37m}-x86_64-linux-gnu.so
+Then allas gut.
+
